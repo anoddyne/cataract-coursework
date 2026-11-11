@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "train": {
+      "normal": 196,
+      "cataract": 196
+    },
+    "val": {
+      "normal": 50,
+      "cataract": 49
+    },
+    "test": {
+      "normal": 60,
+      "cataract": 61
+    }
+  },
+  "total": {
+    "normal": 306,
+    "cataract": 306
+  },
+  "imbalance_ratio": 1.0,
+  "size_stats": {
+    "width_min": 54,
+    "width_max": 6622,
+    "height_min": 36,
+    "height_max": 3826,
+    "n_unique_sizes": 391
+  },
+  "channel_means_rgb": {
+    "normal": [
+      165.09515380859375,
+      130.51930236816406,
+      114.999755859375
+    ],
+    "cataract": [
+      158.01882934570312,
+      124.8165512084961,
+      105.32498168945312
+    ]
+  }
+}

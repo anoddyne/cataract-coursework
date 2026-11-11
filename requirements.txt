@@ -1,0 +1,16 @@
+# Зависимости проекта "Выявление катаракты по изображениям глаза"
+#
+# PyTorch ставился с поддержкой ROCm под AMD Radeon RX 9060 XT (Windows):
+#   pip install --index-url https://stable.repo.amd.com/rocm/whl-next/ ^
+#       "torch[device-gfx1200]==2.14.0+rocm10.1.0" ^
+#       "torchvision[device-gfx1200]==0.29.0a0+rocm10.1.0"
+# Для NVIDIA GPU или CPU достаточно:
+#   pip install torch torchvision
+# (остальные зависимости ставятся обычным образом: pip install -r requirements.txt)
+
+timm==1.0.30
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pandas==3.1.0
+numpy>=2.5
+pillow>=12
